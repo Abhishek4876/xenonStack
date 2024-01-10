@@ -11,7 +11,7 @@
 ![image](https://user-images.githubusercontent.com/68241382/191223311-7ba2d78b-39bb-4761-96f3-39caff032c24.png)
 
 # To register the user:
-![image](https://user-images.githubusercontent.com/68241382/191223473-8bc5d3cb-4ad1-466b-adce-3a8e839bebd0.png)
+![Xenon1](https://github.com/Abhishek4876/xenonStack/assets/156185857/e58e31e8-519e-4924-9805-f37ed415665a)
 
 1) Click on signup button on the top right corner.
 2) Enter your details and click submit.
@@ -19,15 +19,13 @@
 
 As soon as the user clicks on submit, the form data containing username, email, password and confirm password is sent to the server via request object. 
 At the serverside, we access the form data through the incoming request.body object.
-Now first we check whether the password matches the confirm password, if it doesnot we send it back to the signup page, otherwise we moveon to the next step wherein we check if any user with the specified email ID exists or not, if it does, we send it back to the signup page, otherwise we moveon to the next step wherein we register the user. After which user.save() method is called before which due to our custom middleware which we have set in the user model our password gets encrypted using bcrypt library (using 10 salt rounds).
+Now first we check whether the password matches the confirm password, if it doesnot we send it back to the signup page, otherwise we moveon to the next step wherein we check if any user with the specified email ID exists or not, if it does, we send it back to the signup page, otherwise we moveon to the next step wherein we register the user.
 ![image](https://user-images.githubusercontent.com/68241382/191223899-3e12ec78-6985-4717-ab11-4613ccff78e3.png)
-
-Because of password encryption, the password doesnot get exposed even if someone gets access to our database.
-![image](https://user-images.githubusercontent.com/68241382/191224074-1766617a-3133-4557-bb11-f40503b25f89.png)
 
 
 # To Login the user:
-![image](https://user-images.githubusercontent.com/68241382/191223510-648d0348-8231-4386-9842-ad0944595bba.png)
+![Xenon1](https://github.com/Abhishek4876/xenonStack/assets/156185857/0c59b361-3320-4d85-ad0d-325e151a6515)
+
 
 1) Click on Sign in button on the top right corner.
 2) Enter your details and click submit.
@@ -50,7 +48,8 @@ After this the user gets redirected to the profile page, before which we extract
 
 
 # To log out
-![image](https://user-images.githubusercontent.com/68241382/191223526-9b42bc46-cbae-470d-8f7f-18f7f67f98d0.png)
+![Xenon1](https://github.com/Abhishek4876/xenonStack/assets/156185857/e750ef4b-5f03-4046-905e-3695ee1cd4eb)
+
 
 1) Click on Log out button on the top right corner.
 
@@ -59,8 +58,8 @@ As soon as the user clicks on Logout button we simply remove the cookie from the
 ![image](https://user-images.githubusercontent.com/68241382/191224870-2aa721d8-730b-408a-9d9a-4aa39382e830.png)
 
 # To Contact us
-![image](https://user-images.githubusercontent.com/68241382/191223539-662c9426-c8f1-4e36-8074-b2d3f8c462dd.png)
+![Xenon1](https://github.com/Abhishek4876/xenonStack/assets/156185857/a440365e-fde3-4487-87ed-09b0bd8a4f82)
 
 1) Click on Contact us button on the top right corner.
-![image](https://user-images.githubusercontent.com/68241382/191225187-57cef766-41eb-4307-b291-60c26c7abac7.png)
+![last](https://github.com/Abhishek4876/xenonStack/assets/156185857/c85d287b-beca-411a-8d73-054ff75b25bd)
 
